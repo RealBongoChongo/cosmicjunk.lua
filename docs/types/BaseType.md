@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # BaseType
 
 The base class for every part
