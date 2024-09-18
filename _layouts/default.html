@@ -21,7 +21,9 @@
       }
 
       .sidebar {
-        width: 250;
+        width: 250px;
+        float: right;
+        position: absolute;
       }
     </style>
     <!--[if lt IE 9]>
@@ -30,7 +32,7 @@
   </head>
   <body>
     <div class="wrapper">
-      <header class="sidebar">
+      <section class="sidebar">
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
         {% if site.logo %}
@@ -62,7 +64,7 @@
           {% endif %}
           <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
         </footer>
-      </header>
+      </section>
       <section>
 
       {{ content }}
