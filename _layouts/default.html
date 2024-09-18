@@ -34,8 +34,8 @@
         {% for item in sorted %}
           {% if item.path != "index.md" and item.title and item.rank %}
             <li>
-              <a href="{{ item.path | replace:'.md','' }}">{{ item.title }}</a>
-              <span> [ {{ item.path }} - {{ item.title }} - {{ item.rank }} ] </span>
+              <a href="/cosmicjunk.lua/{{ item.path | replace:'.md','' }}">{{ item.title }}</a>
+              <!-- <span> [ {{ item.path }} - {{ item.title }} - {{ item.rank }} ] </span> -->
             </li>
           {% endif %}
         {% endfor %}
