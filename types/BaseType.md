@@ -1,5 +1,7 @@
 ---
 layout: default
+title: BaseType
+rank: 1
 ---
 
 # BaseType
