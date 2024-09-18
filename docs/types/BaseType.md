@@ -16,7 +16,7 @@ The base class for every part
 
 ## Methods
 
-`GetConfigurations()` : Object
+### `GetConfigurations()` : Object
 
 Gathers the configurations for the part
 
@@ -31,7 +31,7 @@ print(light:GetConfigurations())
 
 ***
 
-`GetConfiguration(Attribute)` : any
+### `GetConfiguration(Attribute)` : any
 
 Gathers a specific configuration from a part
 
@@ -49,7 +49,7 @@ print(light:GetConfiguration("Owner"))
 
 ***
 
-`SetConfiguration(Attribute, NewValue)` : void
+### `SetConfiguration(Attribute, NewValue)` : void
 
 Sets a configuration for a part
 
@@ -63,7 +63,7 @@ light:SetConfiguration("Range", 60)
 
 ***
 
-`ConnectEvent(EventName, Callback)` : RBXConnectionEvent
+### `ConnectEvent(EventName, Callback)` : RBXConnectionEvent
 
 Connects to an event that a part has
 
@@ -83,7 +83,7 @@ Event:Disconnect()
 
 ***
 
-`OnceEvent(EventName, Callback)` : RBXConnectionEvent
+### `OnceEvent(EventName, Callback)` : RBXConnectionEvent
 
 Connects to an event that a part has and destroys after being fired once
 
