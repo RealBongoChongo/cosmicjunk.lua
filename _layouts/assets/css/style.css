@@ -1,0 +1,12 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+header {
+  float: right;
+}
+
+section {
+  float: left;
+}
