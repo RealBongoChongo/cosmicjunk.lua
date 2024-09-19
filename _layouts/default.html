@@ -36,9 +36,9 @@
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
         
-        {% assign sorted = site.html_pages | sort:"rank" %}
+        {% assign sorted = site.static_file | sort:"rank" %}
         {% for item in sorted %}
-          {% if item.path != "index.md" and item.title and item.rank %}
+          {% if item.path != "index.md" and item.path contains "docs/types/" and item.title and item.rank %}
             <li>
               <a href="/cosmicjunk.lua/{{ item.path | replace:'.md','' }}">{{ item.path }}</a>
               <!-- <span> [ {{ item.path }} - {{ item.title }} - {{ item.rank }} ] </span> -->
