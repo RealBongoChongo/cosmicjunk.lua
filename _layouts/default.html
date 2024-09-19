@@ -36,7 +36,7 @@
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
-        <ul style="overflow-y: auto; height: calc(75vh - 75px);">
+        <ul style="overflow-y: auto; height: calc(75vh - 150px);">
           <li>Basics</li>
           <ul>
           {% assign sorted = site.html_pages | sort: "rank" | where_exp: "item", "item.path contains 'docs/basic/'" %}
