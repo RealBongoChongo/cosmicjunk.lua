@@ -11,14 +11,24 @@ rank: 2
 
 The base class for every triggerable part
 
-## Properties
+## Overview
+
+|**Events**                                             |
+| :---------------------------------------------------- |
+|`Triggered` : void                                     |
+
+|**Methods**                                              |
+| :------------------------------------------------------ |
+|`Trigger()` : void                                       |
 
 ## Events
 
-- Triggered : `(void)`
+### `Triggered` : void
+
+Fires whenever the part is triggered
 
 ## Methods
 
-`Trigger()` : void
+### `Trigger()` : void
 
-Triggers the given part
+Triggers the part
