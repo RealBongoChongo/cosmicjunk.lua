@@ -28,8 +28,8 @@ The base class for every part
 
 Fires whenever an attribute was changed on the object
 
-<blockquote style="border-left: 1px solid #f22;">
-    <strong style="color: #0dd;">WARNING</strong><br>
+<blockquote style="border-left: 1px solid #f52;">
+    <strong style="color: #0ad;">WARNING</strong><br>
     <strong>This fires on all attributes, meaning that it will not matter if it is not a configuration attribute</strong>
 </blockquote>
 
