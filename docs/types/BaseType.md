@@ -8,6 +8,8 @@ rank: 1
 
 The base class for every part
 
+## Overview
+
 |**Events**                                             |
 | :---------------------------------------------------- |
 |`AttributeChanged` : string                            |
@@ -19,6 +21,21 @@ The base class for every part
 |`SetConfiguration(Attribute, Value)` : void              |
 |`ConnectEvent(EventName, Callback)` : RBXConnectionEvent |
 |`OnceEvent(EventName, Callback)` : RBXConnectionEvent    |
+
+## Events
+
+### `AttributeChanged` : string
+
+Fires whenever an attribute was changed on the object
+
+> [!WARNING]
+> This fires on all attributes, meaning that it will not matter if it is not a configuration attribute
+
+|**Arguments**  | Type   |
+| :------------ | ------ |
+| Attribute     | string |
+
+## Methods
 
 ### `GetConfigurations()` : Object
 
