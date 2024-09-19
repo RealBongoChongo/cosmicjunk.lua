@@ -38,9 +38,9 @@
         
         {% assign sorted = site.static_files | sort:"rank" %}
         {% for item in sorted %}
-          {% if item.path != "index.md" and item.path.startsWith("docs") %}
+          {% if item.path != "index.md" and item.path.endsWith(".md") %}
             <li>
-              <a href="/cosmicjunk.lua/{{ item.path | replace:'.md','' }}">{{ item.name }}</a>
+              <a href="/cosmicjunk.lua/{{ item.path | replace:'.md','' }}">{{ item.path }}</a>
               <!-- <span> [ {{ item.path }} - {{ item.title }} - {{ item.rank }} ] </span> -->
             </li>
           {% endif %}
