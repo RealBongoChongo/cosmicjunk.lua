@@ -51,15 +51,30 @@
           </ul>
           <li>Types</li>
           <ul>
-          {% assign sorted = site.html_pages | sort: "rank" | where_exp: "item", "item.path contains 'docs/types/'" %}
-          {% for item in sorted %}
-            {% if item.path != "index.md" and item.title and item.rank %}
-              <li>
-                <a href="/cosmicjunk.lua/{{ item.path | replace:'.md','' }}">{{ item.title }}</a>
-                <!-- <span> [ {{ item.path }} - {{ item.title }} - {{ item.rank }} ] </span> -->
-              </li>
-            {% endif %}
-          {% endfor %}
+            <li>Basic Types</li>
+            <ul>
+              {% assign sorted = site.html_pages | sort: "rank" | where_exp: "item", "item.path contains 'docs/types/base/'" %}
+              {% for item in sorted %}
+                {% if item.path != "index.md" and item.title and item.rank %}
+                  <li>
+                    <a href="/cosmicjunk.lua/{{ item.path | replace:'.md','' }}">{{ item.title }}</a>
+                    <!-- <span> [ {{ item.path }} - {{ item.title }} - {{ item.rank }} ] </span> -->
+                  </li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+            <li>Part Types</li>
+            <ul>
+              {% assign sorted = site.html_pages | sort: "rank" | where_exp: "item", "item.path contains 'docs/types/part/'" %}
+              {% for item in sorted %}
+                {% if item.path != "index.md" and item.title and item.rank %}
+                  <li>
+                    <a href="/cosmicjunk.lua/{{ item.path | replace:'.md','' }}">{{ item.title }}</a>
+                    <!-- <span> [ {{ item.path }} - {{ item.title }} - {{ item.rank }} ] </span> -->
+                  </li>
+                {% endif %}
+              {% endfor %}
+            </ul>
           </ul>
           <li>Examples</li>
           <ul>
