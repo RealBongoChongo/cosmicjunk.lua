@@ -41,6 +41,10 @@ Fires whenever an attribute was changed on the object
 
 Gathers the configurations for the part
 
+|**Returns**    | Type   |
+| :------------ | ------ |
+| Attributes    | Object |
+
 #### Code Example
 
 ```lua
@@ -55,6 +59,14 @@ print(light:GetConfigurations())
 ### `GetConfiguration(Attribute)` : any
 
 Gathers a specific configuration from a part
+
+|**Parameters** | Type   |
+| :------------ | ------ |
+| Attribute     | string |
+
+|**Returns**    | Type   |
+| :------------ | ------ |
+| Attributes    | any    |
 
 #### Code Example
 
@@ -74,6 +86,11 @@ print(light:GetConfiguration("Owner"))
 
 Sets a configuration for a part
 
+|**Parameters** | Type   |
+| :------------ | ------ |
+| Attribute     | string |
+| NewValue      | any    |
+
 #### Code Example
 
 ```lua
@@ -89,6 +106,11 @@ light:SetConfiguration("Range", 60)
 Connects to an event that a part has
 
 *Similar behavior to `Event:Connect()` in luau*
+
+|**Parameters** | Type     |
+| :------------ | -------- |
+| EventName     | string   |
+| Callback      | function |
 
 #### Code Example
 
@@ -111,6 +133,12 @@ Event:Disconnect()
 Connects to an event that a part has and destroys after being fired once
 
 *Similar behavior to `Event:Once()` in luau*
+
+
+|**Parameters** | Type     |
+| :------------ | -------- |
+| EventName     | string   |
+| Callback      | function |
 
 #### Code Example
 
