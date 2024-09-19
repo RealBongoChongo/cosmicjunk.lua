@@ -8,12 +8,12 @@ rank: 1
 
 The base class for every part
 
-|## Events                                             |
-| ---------------------------------------------------- |
-|`AttributeChanged` : string                           |
+|**Events**                                             |
+| :---------------------------------------------------- |
+|`AttributeChanged` : string                            |
 
-|## Methods                                             |
-| ----------------------------------------------------- |
+|**Methods**                                              |
+| :------------------------------------------------------ |
 |`GetConfigurations()` : Object                           |
 |`GetConfiguration(Attribute)` : any                      |
 |`SetConfiguration(Attribute, Value)` : void              |
