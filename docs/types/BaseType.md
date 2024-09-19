@@ -28,7 +28,8 @@ The base class for every part
 
 Fires whenever an attribute was changed on the object
 
-<p class="panel-warning" markdown="1">This fires on all attributes, meaning that it will not matter if it is not a configuration attribute</p>
+> [!WARNING]
+> This fires on all attributes, meaning that it will not matter if it is not a configuration attribute
 
 |**Arguments**  | Type   |
 | :------------ | ------ |
