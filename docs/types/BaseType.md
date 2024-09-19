@@ -28,8 +28,9 @@ The base class for every part
 
 Fires whenever an attribute was changed on the object
 
-> [!WARNING]
-> This fires on all attributes, meaning that it will not matter if it is not a configuration attribute
+<blockquote style="border-left:1px solid #fe2;">
+    <strong>This fires on all attributes, meaning that it will not matter if it is not a configuration attribute</strong>
+</blockquote>
 
 |**Arguments**  | Type   |
 | :------------ | ------ |
