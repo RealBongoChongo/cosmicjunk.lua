@@ -36,7 +36,7 @@
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
         
-        {% assign sorted = site.static_file | sort:"rank" %}
+        {% assign sorted = site.static_files | sort:"rank" %}
         {% for item in sorted %}
           {% if item.path != "index.md" and item.path contains "docs/types/" and item.title and item.rank %}
             <li>
