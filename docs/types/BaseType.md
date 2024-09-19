@@ -8,19 +8,23 @@ rank: 1
 
 The base class for every part
 
-## Properties
+|## Events                                             |
+| ---------------------------------------------------- |
+|`AttributeChanged` : string                           |
 
-## Events
-
-- AttributeChanged : `(AttributeName)`
-
-## Methods
+|## Methods                                             |
+| ----------------------------------------------------- |
+|`GetConfigurations()` : Object                           |
+|`GetConfiguration(Attribute)` : any                      |
+|`SetConfiguration(Attribute, Value)` : void              |
+|`ConnectEvent(EventName, Callback)` : RBXConnectionEvent |
+|`OnceEvent(EventName, Callback)` : RBXConnectionEvent    |
 
 ### `GetConfigurations()` : Object
 
 Gathers the configurations for the part
 
-Example from getting a configuration from a light:
+#### Code Example
 
 ```lua
 local light = GetPartFromPort(1, "Light")
@@ -35,7 +39,7 @@ print(light:GetConfigurations())
 
 Gathers a specific configuration from a part
 
-Example from getting a configuration from a light:
+#### Code Example
 
 ```lua
 local light = GetPartFromPort(1, "Light")
@@ -53,7 +57,7 @@ print(light:GetConfiguration("Owner"))
 
 Sets a configuration for a part
 
-Example:
+#### Code Example
 
 ```lua
 local light = GetPartFromPort(1, "Light")
@@ -67,7 +71,9 @@ light:SetConfiguration("Range", 60)
 
 Connects to an event that a part has
 
-Example:
+*Similar behavior to `Event:Connect()` in luau*
+
+#### Code Example
 
 ```lua
 local TriggerWire = GetPartFromPort(1, "TriggerWire")
@@ -87,7 +93,9 @@ Event:Disconnect()
 
 Connects to an event that a part has and destroys after being fired once
 
-Example:
+*Similar behavior to `Event:Once()` in luau*
+
+#### Code Example
 
 ```lua
 local TriggerWire = GetPartFromPort(1, "TriggerWire")
