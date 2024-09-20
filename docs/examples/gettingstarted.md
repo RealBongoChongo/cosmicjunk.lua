@@ -27,13 +27,17 @@ Screen:ClearGUI()
 local Power = Screen:CreateGUI("TextLabel", {
   Size = UDim2.new(1,0,0.5,0),
   Position = UDim2.new(0,0,0,0),
-  Text = `Power: {PowerSensor:GetReading()}`,
+  Text = string.format("Power: %s", PowerSensor:GetReading()),
+  TextScaled = true,
+  BorderSizePixel = 0,
 })
 
 local PowerChange = Screen:CreateGUI("TextLabel", {
   Size = UDim2.new(1,0,0.5,0),
   Position = UDim2.new(0,0,0.5,0),
-  Text = `Power: {PowerSensor:GetReading()}`,
+  Text = "Power Change: 0",
+  TextScaled = true,
+  BorderSizePixel = 0,
 })
 
 -- Regularly update power values each second
@@ -43,8 +47,8 @@ while true do
   local NowPower = PowerSensor:GetReading()
 
   -- Change text
-  Power:ChangeProperties({Text = `Power: {NowPower}`})
-  PowerChange:ChangeProperties({Text = `Power Change: {NowPower - LastPower}`})
+  Power:ChangeProperties({Text = string.format("Power: %s", NowPower)})
+  PowerChange:ChangeProperties({Text = string.format("Power Change: %s", NowPower - LastPower)})
 
   -- Set the power now to the last power
   LastPower = NowPower
