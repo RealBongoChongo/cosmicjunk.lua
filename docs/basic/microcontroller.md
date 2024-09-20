@@ -15,6 +15,8 @@ This class does not require any reference and everything is considered a global 
 | `GetPartFromPort(PortNumber, ObjectName)` : [BaseType](https://realbongochongo.github.io/cosmicjunk.lua/docs/types/base/basetype)  |
 | `GetPartsFromPort(PortNumber, ObjectName)` : Array                                                                                 |
 
+<br />
+
 ## Functions
 
 ### `GetPartFromPort(PortNumber, ObjectName)` : [BaseType](https://realbongochongo.github.io/cosmicjunk.lua/docs/types/base/basetype)
@@ -36,7 +38,7 @@ Gets a part from a connected port to the microcontroller
 local Light = GetPartFromPort(1, "Light")
 ```
 
-***
+<br />
 
 ### `GetPartsFromPort(PortNumber, ObjectName)` : Array
 

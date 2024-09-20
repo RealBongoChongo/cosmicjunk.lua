@@ -20,7 +20,7 @@ A screen can be a powerful part when used correctly, allowing for custom statuse
 | `CreateGUI(GUIName : string, Properties : Object)` : [GUIObject](https://github.com/RealBongoChongo/cosmicjunk.lua/wiki/GUIObject) |
 | `ClearGUI()` : void                                                                                                                |
 
-$~$
+<br />
 
 ## Properties
 
@@ -28,7 +28,7 @@ $~$
 
 Returns a table of all the gui objects on the screen
 
-$~$
+<br />
 
 ## Methods
 
@@ -52,7 +52,7 @@ local frame = screen:CreateGUI("Frame", {
 })
 ```
 
-$~$
+<br />
 
 ### `ClearGUI()` : void
 

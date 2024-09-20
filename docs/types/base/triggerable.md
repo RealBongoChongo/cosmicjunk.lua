@@ -21,7 +21,7 @@ The base class for every triggerable part
 | :------------------------------------------------------ |
 |`Trigger()` : void                                       |
 
-$~$
+<br />
 
 ## Events
 
@@ -29,7 +29,7 @@ $~$
 
 Fires whenever the part is triggered
 
-$~$
+<br />
 
 ## Methods
 
