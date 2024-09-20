@@ -15,13 +15,19 @@ The base class for every GUI object, used for screens
 |`Destroy()` : void                                       |
 |`ChangeProperties(Properties)` : void                    |
 
+
+
+
+
 ## Methods
 
 ### `Destroy()` : void
 
 Destroys the GUI object
 
-***
+
+
+
 
 ### `ChangeProperties(Properties)` : void
 
