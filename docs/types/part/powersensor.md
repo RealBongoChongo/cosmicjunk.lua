@@ -18,6 +18,7 @@ The base class for all power sensors
 | `GetReading()` : number |
 
 <br />
+<br />
 
 ## Methods
 

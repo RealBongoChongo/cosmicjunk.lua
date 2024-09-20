@@ -22,6 +22,7 @@ The base class for every triggerable part
 |`Trigger()` : void                                       |
 
 <br />
+<br />
 
 ## Events
 
@@ -29,6 +30,7 @@ The base class for every triggerable part
 
 Fires whenever the part is triggered
 
+<br />
 <br />
 
 ## Methods

@@ -16,6 +16,7 @@ This class does not require any reference and everything is considered a global 
 | `GetPartsFromPort(PortNumber, ObjectName)` : Array                                                                                 |
 
 <br />
+<br />
 
 ## Functions
 
@@ -38,6 +39,7 @@ Gets a part from a connected port to the microcontroller
 local Light = GetPartFromPort(1, "Light")
 ```
 
+<br />
 <br />
 
 ### `GetPartsFromPort(PortNumber, ObjectName)` : Array

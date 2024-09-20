@@ -21,6 +21,7 @@ A screen can be a powerful part when used correctly, allowing for custom statuse
 | `ClearGUI()` : void                                                                                                                |
 
 <br />
+<br />
 
 ## Properties
 
@@ -28,6 +29,7 @@ A screen can be a powerful part when used correctly, allowing for custom statuse
 
 Returns a table of all the gui objects on the screen
 
+<br />
 <br />
 
 ## Methods
@@ -52,6 +54,7 @@ local frame = screen:CreateGUI("Frame", {
 })
 ```
 
+<br />
 <br />
 
 ### `ClearGUI()` : void

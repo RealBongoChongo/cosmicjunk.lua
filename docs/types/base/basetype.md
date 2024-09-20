@@ -23,6 +23,7 @@ The base class for every part
 |`OnceEvent(EventName, Callback)` : RBXConnectionEvent    |
 
 <br />
+<br />
 
 ## Events
 
@@ -39,6 +40,7 @@ Fires whenever an attribute was changed on the object
 | :------------ | ------ |
 | Attribute     | string |
 
+<br />
 <br />
 
 ## Methods
@@ -60,6 +62,7 @@ print(light:GetConfigurations())
 >>> { ["Brightness"] = 1; ["Range"] = 16; }
 ```
 
+<br />
 <br />
 
 ### `GetConfiguration(Attribute)` : any
@@ -87,6 +90,7 @@ print(light:GetConfiguration("Owner"))
 ```
 
 <br />
+<br />
 
 ### `SetConfiguration(Attribute, NewValue)` : void
 
@@ -105,6 +109,7 @@ local light = GetPartFromPort(1, "Light")
 light:SetConfiguration("Range", 60)
 ```
 
+<br />
 <br />
 
 ### `ConnectEvent(EventName, Callback)` : RBXConnectionEvent
@@ -132,6 +137,7 @@ local Event = TriggerWire:ConnectEvent("Triggered", OnTrigger)
 Event:Disconnect()
 ```
 
+<br />
 <br />
 
 ### `OnceEvent(EventName, Callback)` : RBXConnectionEvent
