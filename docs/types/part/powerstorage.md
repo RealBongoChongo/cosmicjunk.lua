@@ -15,6 +15,10 @@ The base class for PowerCells and Batteries
 | --------------------- |
 | `GetPower()` : Object |
 
+
+
+
+
 ## Methods
 
 ### `GetPower()` : Object
