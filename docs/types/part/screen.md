@@ -1,3 +1,9 @@
+---
+layout: default
+title: Screen
+rank: 3
+---
+
 # Screen
 ### Inherited from [BaseType](/cosmicjunk.lua/docs/types/BaseType)
 

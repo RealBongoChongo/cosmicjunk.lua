@@ -1,3 +1,9 @@
+---
+layout: default
+title: PowerStorage
+rank: 2
+---
+
 # PowerStorage
 ### Inherited from [BaseType](https://realbongochongo.github.io/cosmicjunk.lua/docs/types/base/basetype)
 

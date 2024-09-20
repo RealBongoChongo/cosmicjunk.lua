@@ -1,3 +1,9 @@
+---
+layout: default
+title: PowerSensor
+rank: 1
+---
+
 # PowerSensor
 ### Inherited from [BaseType](https://realbongochongo.github.io/cosmicjunk.lua/docs/types/base/basetype)
 
