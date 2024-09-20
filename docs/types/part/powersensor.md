@@ -23,6 +23,10 @@ The base class for all power sensors
 
 Gets the power reading from the power sensor
 
+| Returns       | Type   |
+| ------------- | ------ |
+| PowerOutput   | number |
+
 #### Code Example
 
 ```lua
