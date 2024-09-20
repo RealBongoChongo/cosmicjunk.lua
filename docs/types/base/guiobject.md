@@ -15,9 +15,7 @@ The base class for every GUI object, used for screens
 |`Destroy()` : void                                       |
 |`ChangeProperties(Properties)` : void                    |
 
-
-
-
+$~$
 
 ## Methods
 
@@ -25,9 +23,7 @@ The base class for every GUI object, used for screens
 
 Destroys the GUI object
 
-
-
-
+$~$
 
 ### `ChangeProperties(Properties)` : void
 
