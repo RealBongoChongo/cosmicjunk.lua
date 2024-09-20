@@ -20,6 +20,6 @@ However, you can still use this component to create a wide variety of tasks rang
 
 ## Getting Started
 
-You may want to get familiar with the global variables located [here](https://realbongochongo.github.io/docs/basic/microcontroller)
+You may want to get familiar with the global variables located [here](https://realbongochongo.github.io/cosmicjunk.lua/docs/basic/microcontroller)
 
 To simply get started, you can read the documentation to the left side of the screen where there are many references and examples to use. I recommend using the [Getting Started Example](https://realbongochongo.github.io/cosmicjunk.lua/docs/examples/gettingstarted) to get an idea on how the microcontrollers function.
