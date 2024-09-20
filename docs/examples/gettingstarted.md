@@ -19,7 +19,8 @@ local Screen = GetPartFromPort(1, "Screen")
 local PowerSensor = GetPartFromPort(1, "PowerSensor")
 local LastPower = PowerSensor:GetReading()
 
--- Clear GUI objects to not hit GUI object limit when the microcontroller restarts
+-- Clear GUI objects to not hit GUI object
+-- limit when the microcontroller restarts
 Screen:ClearGUI()
 
 -- Creating our text
