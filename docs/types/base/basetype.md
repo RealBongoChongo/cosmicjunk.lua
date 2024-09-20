@@ -10,11 +10,11 @@ The base class for every part
 
 ## Overview
 
-|**Events**                                             |
+| Events                                                |
 | :---------------------------------------------------- |
 |`AttributeChanged` : string                            |
 
-|**Methods**                                              |
+| Methods                                                 |
 | :------------------------------------------------------ |
 |`GetConfigurations()` : Object                           |
 |`GetConfiguration(Attribute)` : any                      |
