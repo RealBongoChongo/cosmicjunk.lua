@@ -21,6 +21,10 @@ The base class for PowerCells and Batteries
 
 Gathers the power stats from the part
 
+| Returns       | Type   |
+| ------------- | ------ |
+| PowerValues   | Object |
+
 #### Code Example
 
 ```lua

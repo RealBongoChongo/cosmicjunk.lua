@@ -32,6 +32,10 @@ Returns a table of all the gui objects on the screen
 
 Creates an element with a given gui object name and the properties of that gui object.
 
+| Returns       | Type                                                                          |
+| ------------- | ----------------------------------------------------------------------------- |
+| GUIObject     | [GUIObject](https://github.com/RealBongoChongo/cosmicjunk.lua/wiki/GUIObject) |
+
 #### Code Example
 
 ```lua
