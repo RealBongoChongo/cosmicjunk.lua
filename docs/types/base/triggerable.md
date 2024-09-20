@@ -21,11 +21,15 @@ The base class for every triggerable part
 | :------------------------------------------------------ |
 |`Trigger()` : void                                       |
 
+***
+
 ## Events
 
 ### `Triggered` : void
 
 Fires whenever the part is triggered
+
+***
 
 ## Methods
 

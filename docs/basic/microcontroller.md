@@ -36,6 +36,8 @@ Gets a part from a connected port to the microcontroller
 local Light = GetPartFromPort(1, "Light")
 ```
 
+***
+
 ### `GetPartsFromPort(PortNumber, ObjectName)` : Array
 
 Gets an array of parts from a connected port to the microcontroller
