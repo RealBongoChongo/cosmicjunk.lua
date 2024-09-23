@@ -11,9 +11,32 @@ The base class for Dispensers and Faucets
 
 ## Overview
 
+| Events                |
+| --------------------- |
+| `Dispensed` : void    |
+
 | Methods               |
 | --------------------- |
 | `Dispense()` : void   |
+
+<br />
+<br />
+
+## Events
+
+### `Dispensed` : void
+
+Fires when the part has dispensed something
+
+#### Code Example
+
+```lua
+local Dispenser = GetPartFromPort(1, "Dispenser")
+
+Dispenser:ConnectEvent("Dispensed", function()
+  print("Dispensed")
+end)
+```
 
 <br />
 <br />
