@@ -44,9 +44,9 @@
         <ul style="overflow-y: auto; height: calc(-210px + -61.59px + 100vh);">
           <li>Basics</li>
           <ul>
-          {% assign sorted = site.html_pages | sort: "rank" | where_exp: "item", "item.path contains 'docs/basic/'" %}
+          {% assign sorted = site.html_pages | sort: "title" | where_exp: "item", "item.path contains 'docs/basic/'" %}
           {% for item in sorted %}
-            {% if item.path != "index.md" and item.title and item.rank %}
+            {% if item.path != "index.md" and item.title %}
               <li>
                 <a href="/cosmicjunk.lua/{{ item.path | replace:'.md','' }}">{{ item.title }}</a>
                 <!-- <span> [ {{ item.path }} - {{ item.title }} - {{ item.rank }} ] </span> -->
@@ -58,9 +58,9 @@
           <ul>
             <li>Basic Types</li>
             <ul>
-              {% assign sorted = site.html_pages | sort: "rank" | where_exp: "item", "item.path contains 'docs/types/base/'" %}
+              {% assign sorted = site.html_pages | sort: "title" | where_exp: "item", "item.path contains 'docs/types/base/'" %}
               {% for item in sorted %}
-                {% if item.path != "index.md" and item.title and item.rank %}
+                {% if item.path != "index.md" and item.title %}
                   <li>
                     <a href="/cosmicjunk.lua/{{ item.path | replace:'.md','' }}">{{ item.title }}</a>
                     <!-- <span> [ {{ item.path }} - {{ item.title }} - {{ item.rank }} ] </span> -->
@@ -70,9 +70,9 @@
             </ul>
             <li>Part Types</li>
             <ul>
-              {% assign sorted = site.html_pages | sort: "rank" | where_exp: "item", "item.path contains 'docs/types/part/'" %}
+              {% assign sorted = site.html_pages | sort: "title" | where_exp: "item", "item.path contains 'docs/types/part/'" %}
               {% for item in sorted %}
-                {% if item.path != "index.md" and item.title and item.rank %}
+                {% if item.path != "index.md" and item.title %}
                   <li>
                     <a href="/cosmicjunk.lua/{{ item.path | replace:'.md','' }}">{{ item.title }}</a>
                     <!-- <span> [ {{ item.path }} - {{ item.title }} - {{ item.rank }} ] </span> -->
@@ -83,9 +83,9 @@
           </ul>
           <li>Examples</li>
           <ul>
-          {% assign sorted = site.html_pages | sort: "rank" | where_exp: "item", "item.path contains 'docs/examples/'" %}
+          {% assign sorted = site.html_pages | sort: "title" | where_exp: "item", "item.path contains 'docs/examples/'" %}
           {% for item in sorted %}
-            {% if item.path != "index.md" and item.title and item.rank %}
+            {% if item.path != "index.md" and item.title %}
               <li>
                 <a href="/cosmicjunk.lua/{{ item.path | replace:'.md','' }}">{{ item.title }}</a>
                 <!-- <span> [ {{ item.path }} - {{ item.title }} - {{ item.rank }} ] </span> -->
