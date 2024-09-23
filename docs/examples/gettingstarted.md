@@ -47,8 +47,12 @@ while true do
   local NowPower = PowerSensor:GetReading()
 
   -- Change text
-  Power:ChangeProperties({Text = string.format("Power: %s", NowPower)})
-  PowerChange:ChangeProperties({Text = string.format("Power Change: %s", NowPower - LastPower)})
+  Power:ChangeProperties({
+    Text = string.format("Power: %s", NowPower)
+  })
+  PowerChange:ChangeProperties({
+    Text = string.format("Power Change: %s", NowPower - LastPower)
+  })
 
   -- Set the power now to the last power
   LastPower = NowPower
