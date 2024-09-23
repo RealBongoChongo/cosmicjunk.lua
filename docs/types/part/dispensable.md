@@ -4,7 +4,7 @@ title: Dispensable
 rank: 4
 ---
 
-# PowerStorage
+# Dispensable
 ### Inherited from [BaseType](https://realbongochongo.github.io/cosmicjunk.lua/docs/types/base/basetype)
 
 The base class for Dispensers and Faucets
