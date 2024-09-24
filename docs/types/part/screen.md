@@ -5,7 +5,7 @@ rank: 3
 ---
 
 # Screen
-### Inherited from [BaseType](/cosmicjunk.lua/docs/types/BaseType)
+### Inherited from [BaseType](/cosmicjunk.lua/docs/types/base/basetype)
 
 A screen can be a powerful part when used correctly, allowing for custom statuses, interfaces, or even games to be displayed on them.
 
@@ -17,7 +17,7 @@ A screen can be a powerful part when used correctly, allowing for custom statuse
 
 | Methods                                                                                                                            |
 | ---------------------------------------------------------------------------------------------------------------------------------- |
-| `CreateGUI(GUIName : string, Properties : Object)` : [GUIObject](https://github.com/RealBongoChongo/cosmicjunk.lua/wiki/GUIObject) |
+| `CreateGUI(GUIName : string, Properties : Object)` : [GUIObject](https://realbongochongo.github.io/cosmicjunk.lua/docs/types/base/guiobject) |
 | `ClearGUI()` : void                                                                                                                |
 
 <br />
