@@ -15,10 +15,10 @@ A screen can be a powerful part when used correctly, allowing for custom statuse
 | ------------------ |
 | `Objects` : Object |
 
-| Methods                                                                                                                            |
-| ---------------------------------------------------------------------------------------------------------------------------------- |
+| Methods                                                                                                                                      |
+| -------------------------------------------------------------------------------------------------------------------------------------------- |
 | `CreateGUI(GUIName : string, Properties : Object)` : [GUIObject](https://realbongochongo.github.io/cosmicjunk.lua/docs/types/base/guiobject) |
-| `ClearGUI()` : void                                                                                                                |
+| `ClearGUI()` : void                                                                                                                          |
 
 <br />
 <br />
