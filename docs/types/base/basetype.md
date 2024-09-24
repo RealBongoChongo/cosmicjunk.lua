@@ -15,6 +15,7 @@ The base class for every part
 |`AttributeChanged` : string                            |
 
 | Properties           |
+| -------------------- |
 | `ClassName` : string |
 
 | Methods                                                 |
