@@ -5,7 +5,7 @@ rank: 2
 ---
 
 # Triggerable
-### Inherited from [BaseType](/cosmicjunk.lua/docs/types/BaseType)
+### Inherited from [BaseType](/cosmicjunk.lua/docs/types/base/basetype)
 
 ***
 
