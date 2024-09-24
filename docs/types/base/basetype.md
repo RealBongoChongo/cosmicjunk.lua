@@ -14,6 +14,9 @@ The base class for every part
 | :---------------------------------------------------- |
 |`AttributeChanged` : string                            |
 
+| Properties           |
+| `ClassName` : string |
+
 | Methods                                                 |
 | :------------------------------------------------------ |
 |`GetConfigurations()` : Object                           |
@@ -39,6 +42,24 @@ Fires whenever an attribute was changed on the object
 |**Arguments**  | Type   |
 | :------------ | ------ |
 | Attribute     | string |
+
+<br />
+<br />
+
+## Properties
+
+### `ClassName` : string
+
+Defines the class name of the object
+
+#### Code Example
+
+```lua
+local TriggerWire = GetPartFromPort(1, "TriggerWire")
+
+print(TriggerWire.ClassName)
+>>> "Triggerable"
+```
 
 <br />
 <br />
