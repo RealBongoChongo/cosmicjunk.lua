@@ -20,7 +20,7 @@ The class that encompasses the lifesensor component
 
 ### `GetPlayers( Relative )` : Array
 
-Dispenses an object from the part with no cooldown (Abides by microcontroller throttling)
+Gets all players in the world
 
 The relative parameter refers to the position and rotation that is relative to the life sensor
 
