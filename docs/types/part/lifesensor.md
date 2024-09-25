@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Dispensable
+# LifeSensor
 ### Inherited from [BaseType](https://realbongochongo.github.io/cosmicjunk.lua/docs/types/base/basetype)
 
 The class that encompasses the lifesensor component
