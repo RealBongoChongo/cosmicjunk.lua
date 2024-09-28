@@ -19,7 +19,7 @@ The base class for every triggerable part
 
 |**Methods**                                              |
 | :------------------------------------------------------ |
-|`Trigger()` : void                                       |
+|`Trigger( string )` : void                                       |
 
 <br />
 <br />
@@ -38,3 +38,7 @@ Fires whenever the part is triggered
 ### `Trigger()` : void
 
 Triggers the part
+
+| Parameters      | Type                               | Required |
+| --------------- | ---------------------------------- | -------- |
+| PolysiliconType | "Activate", "Deactivate", "Toggle" | No       |

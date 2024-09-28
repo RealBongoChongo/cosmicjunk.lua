@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Dispensable
+title: Reactor
 rank: 4
 ---
 
-# Dispensable
-### Inherited from [BaseType](https://realbongochongo.github.io/cosmicjunk.lua/docs/types/base/basetype)
+# Reactor
+### Inherited from [Triggerable](https://realbongochongo.github.io/cosmicjunk.lua/docs/types/base/triggerable)
 
 The class for reactors- can be very useful for automating them
 
