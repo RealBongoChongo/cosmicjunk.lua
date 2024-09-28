@@ -18,7 +18,7 @@ Classes Used:
 local Reactor = GetPartFromPort(1, "Reactor")
 local Dispenser = GetPartFromPort(1, "Dispenser")
 
--- Regularly checking the 
+-- Regularly checking the reactor
 while true do
     task.wait(0.25)
     local Heat = Reactor:GetHeat()
