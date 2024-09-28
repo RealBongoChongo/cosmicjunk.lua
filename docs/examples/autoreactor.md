@@ -20,18 +20,18 @@ local Dispenser = GetPartFromPort(1, "Dispenser")
 
 -- Regularly checking the 
 while true do
-    task.wait(1)
+    task.wait(0.25)
     local Heat = Reactor:GetHeat()
 
     -- Keeping it within optimal ranges
-    if Heat <= 3250 then
+    if Heat <= 3750 then
         Reactor:Trigger("Activate")
-    elseif Heat >= 3650 then
+    elseif Heat > 3750 then
         Reactor:Trigger("Deactivate")
     end
 
     -- Keeping reactor levels good
-    for _, Level in Reactor:GetLevels() do
+    for _, Level in pairs(Reactor:GetLevels()) do
         if Level <= 25 then
             Dispenser:Dispense()
         end
