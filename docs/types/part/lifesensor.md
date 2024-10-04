@@ -7,6 +7,11 @@ layout: default
 
 The class that encompasses the lifesensor component
 
+<blockquote style="border-left: 1px solid #f52;">
+    <strong style="color: #0ad;">WARNING</strong><br>
+    This component is currently only in the unstable version.
+</blockquote><br>
+
 ## Overview
 
 | Methods                            |
