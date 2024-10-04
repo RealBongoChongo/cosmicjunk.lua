@@ -37,7 +37,7 @@ Fires whenever an attribute was changed on the object
 
 <blockquote style="border-left: 1px solid #f52;">
     <strong style="color: #0ad;">WARNING</strong><br>
-    <strong>This fires on all attributes, meaning that it will not matter if it is not a configuration attribute</strong>
+    This fires on all attributes, meaning that it will not matter if it is not a configuration attribute
 </blockquote><br>
 
 |**Arguments**  | Type   |
