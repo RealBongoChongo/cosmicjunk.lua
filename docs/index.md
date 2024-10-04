@@ -10,7 +10,7 @@ These powerful components run luau code on the server which is very limited (mea
 
 <blockquote style="border-left: 1px solid #f52;">
     <strong style="color: #0ad;">WARNING</strong><br>
-    <strong>Abusing this component will result in a very harsh ban if used to crash worlds or abuse vulnerabilities I may have missed</strong>
+    Abusing this component will result in a very harsh ban if used to crash worlds or abuse vulnerabilities I may have missed
 </blockquote><br>
 
 However, you can still use this component to create a wide variety of tasks ranging from creating an interactable interface using the [Screen](https://realbongochongo.github.io/cosmicjunk.lua/docs/types/part/screen) component or creating a smart missile.
