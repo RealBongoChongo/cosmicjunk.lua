@@ -24,18 +24,35 @@ local LastPower = PowerSensor:GetReading()
 Screen:ClearGUI()
 
 -- Creating our text
-local Power = Screen:CreateGUI("TextLabel", {
-  Size = UDim2.new(1,0,0.5,0),
+local PowerLabel = Screen:CreateGUI("TextLabel", {
+  Size = UDim2.new(0.5,0,0.5,0),
   Position = UDim2.new(0,0,0,0),
-  Text = string.format("Power: %s", PowerSensor:GetReading()),
+  Text = "Power:",
+  TextScaled = true,
+  BorderSizePixel = 0,
+})
+
+local PowerChangeLabel = Screen:CreateGUI("TextLabel", {
+  Size = UDim2.new(0.5,0,0.5,0),
+  Position = UDim2.new(0,0,0.5,0),
+  Text = "Power Change:",
+  TextScaled = true,
+  BorderSizePixel = 0,
+})
+
+-- Creating our readings
+local Power = Screen:CreateGUI("TextLabel", {
+  Size = UDim2.new(0.5,0,0.5,0),
+  Position = UDim2.new(0.5,0,0,0),
+  Text = tostring(LastPower),
   TextScaled = true,
   BorderSizePixel = 0,
 })
 
 local PowerChange = Screen:CreateGUI("TextLabel", {
-  Size = UDim2.new(1,0,0.5,0),
-  Position = UDim2.new(0,0,0.5,0),
-  Text = "Power Change: 0",
+  Size = UDim2.new(0.5,0,0.5,0),
+  Position = UDim2.new(0.5,0,0.5,0),
+  Text = "0",
   TextScaled = true,
   BorderSizePixel = 0,
 })
@@ -48,10 +65,10 @@ while true do
 
   -- Change text
   Power:ChangeProperties({
-    Text = string.format("Power: %s", NowPower)
+    Text = tostring(NowPower)
   })
   PowerChange:ChangeProperties({
-    Text = string.format("Power Change: %s", NowPower - LastPower)
+    Text = tostring(NowPower - LastPower)
   })
 
   -- Set the power now to the last power
